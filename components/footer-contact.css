@@ -1,0 +1,71 @@
+#section-kontakt {
+    display: flex;
+    flex-direction: column;
+}
+#seckontakt-kontakt {text-align: center;}
+#seckontakt-paragraph {text-align: center;}
+#seckontakt-odkazy-a-legalinfo-div {
+    margin: 6% 0;
+    display: flex;
+    padding: 0 10%;
+    justify-content: space-between;
+    
+    
+}
+#seckontakt-odkazy-a-legalinfo-div ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+/* #phone::after {
+    content: "INSTAGRAM";
+}
+#phone:hover::after {
+    content: "@podlahy-sucharda"
+} */
+/* #seckontakt-odkazy ul:nth-child(1) {flex: 2;} */
+/* #seckontakt-odkazy:nth-child(2) ul {flex: 1;} */
+#seckontakt-odkazy {flex: 3;}
+#seckontakt-legalinfo {flex: 1;}
+#seckontakt-legalinfo2 {flex: 1;}
+#seckontakt-odkazy li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 0 0 1% 0;
+}
+#seckontakt-odkazy li img {
+    height: 50px;
+    
+}
+#seckontakt-legalinfo, #seckontakt-legalinfo2 {
+    list-style: none;
+    justify-content: flex-start;
+}
+
+#seckontakt-podlahy-sucharda {
+    text-align: center;
+}
+#seckontakt-lukas-sucharda {
+    text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+
+    #seckontakt-odkazy-a-legalinfo-div {
+        padding: 0 3%;
+    }
+    #seckontakt-odkazy li {
+        gap: 10px;
+    }
+
+
+
+    #seckontakt-odkazy li img {
+        height: 25px;
+    }
+    #seckontakt-podlahy-sucharda {
+        font-size: 5vw;
+    }
+}
