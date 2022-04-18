@@ -1,0 +1,32 @@
+#section-podivejte-se {
+    margin: 0 auto;
+}
+#section-podivejte-se div {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+#section-podivejte-se div p {
+    text-align: center;
+    margin: 2% 0 1%;
+}
+#section-podivejte-se div button {
+    margin: 0 auto;
+}
+#section-podivejte-se div:nth-child(1) button {
+    background-color: blue;
+}
+#section-podivejte-se div:nth-child(2) button {
+    background-color: rgb(86, 86, 209);
+}
+#section-podivejte-se div:nth-child(3) button {
+    background-color: rgb(107, 160, 230);
+}
+
+@media only screen and (max-width: 500px) {
+    #section-podivejte-se div p {
+        margin: 5% 0 0%;
+        font-size: 4vw;
+    }
+}

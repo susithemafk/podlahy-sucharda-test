@@ -1,0 +1,51 @@
+
+#brownbox {
+    position: absolute; 
+    z-index: -1; 
+    width: 100%; 
+    height: 105vh; 
+    filter: opacity(1);
+}
+#kitchenimg {
+    position: absolute; 
+    z-index: -1; 
+    filter: opacity(0.5); 
+    width: 65vw;
+}
+#bgdole {
+    width: calc(100vw - 20px); height: 435vh; overflow: hidden; position: absolute; top: 175vh; 
+        /* ff 3.6+ */
+    background:-moz-radial-gradient(ellipse at 81% 72%, rgb(112, 73, 0) 15%, rgb(42, 26, 2) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(ellipse at 81% 72%, rgba(112, 73, 0, 1) 15%, rgba(42, 26, 2) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(ellipse at 81% 72%, rgba(112, 73, 0, 1) 15%, rgba(42, 26, 2) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(ellipse at 81% 72%, rgba(112, 73, 0, 1) 15%, rgba(42, 26, 2) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(ellipse at 81% 72%, rgba(112, 73, 0, 1) 15%, rgba(42, 26, 2) 100%);
+    
+    background-attachment: fixed; 
+    z-index: -2; 
+}
+@media only screen and (max-width: 500px) {
+#brownbox {
+    display: none;
+  }
+#bgdole {
+    display: none;
+}
+#kitchenimg {
+    width: 100%;
+    margin-top: 10vh;
+    transition: all 0.5s;
+}
+#kitchenimg.active {
+    margin-top: 40vh;
+}
+
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body {
+    background:-moz-radial-gradient(ellipse at 81% 72%, rgb(112, 73, 0) 15%, rgb(42, 26, 2) 100%);
+    background:-webkit-radial-gradient(ellipse at 81% 72%, rgba(112, 73, 0, 1) 15%, rgba(42, 26, 2) 100%);
+    background:-o-radial-gradient(ellipse at 81% 72%, rgba(112, 73, 0, 1) 15%, rgba(42, 26, 2) 100%);
+    background:-ms-radial-gradient(ellipse at 81% 72%, rgba(112, 73, 0, 1) 15%, rgba(42, 26, 2) 100%);
+    background:radial-gradient(ellipse at 81% 72%, rgba(112, 73, 0, 1) 15%, rgba(42, 26, 2) 100%);
+}
+.p {font-family: Poppins;}
+.b {font-family: Basement Grotesque;}
+.m {font-family: Microsoft Yi Baiti;}
+h1 {font-size: 8vw;}
+h2 {font-size: 6vw}
+h3 {font-size: 3.5vw}
+p {font-size: 1.75vw;}
+.logo {line-height: 80%}
+.fw100 {font-weight: 100;}
+.fw200 {font-weight: 200;}
+.fw300 {font-weight: 300;}
+.fw400 {font-weight: 400;}
+.fw500 {font-weight: 500;}
+.fw800 {font-weight: 800;}
+
+.bg30 {background-color: rgba(255, 255, 255, 0.3);}
+
+button {
+    font-family: Poppins; 
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-style: italic;
+    color: white;
+    border-radius: 15px;
+    padding: 0.8rem 3rem;
+    border: 0;
+    cursor: pointer;
+    /* transition: all 0.5s ease-out; */
+}
+button:hover {
+    transform: scale(1.05);
+    /* transition: all 0.5s ease-out; */
+}
+
+  /* Width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #452d02;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(20, 20, 20);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(59, 59, 59);
+  }
+
+
+@media only screen and (max-width: 500px) {
+  h2 {font-size: 2em}
+  button {
+    font-size: 1.25rem;
+    font-weight: 900;
+    font-style: italic;
+    color: white;
+    border-radius: 7px;
+    padding: 0.8rem 2rem;
+    border: 0;
+    cursor: pointer;
+    /* transition: all 0.5s ease-out; */
+}
+}

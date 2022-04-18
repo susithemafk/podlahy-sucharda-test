@@ -1,0 +1,76 @@
+#section-kontaktni-formular {
+
+    display: flex;
+    margin: 5% 15%;
+    padding: 2% 5% 1%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    flex-direction: column;
+    text-align: center;
+}
+#seckontaktni-formular-inputy {
+    display: flex;
+    flex-direction: column;
+}
+#seckontaktni-formular-inputy input, select, textarea {
+    font-size: 10px;
+    margin: 3px;
+    padding: 3px 50px 3px 15px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.512);
+    color: white;
+    background-color: rgba(255, 255, 255, 0.158);
+}
+#seckontaktni-formular-inputy input::placeholder, select::placeholder, textarea::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#seckontaktni-formular-inputy input:focus, select:focus, textarea:focus {
+    outline: solid 2px rgb(98, 70, 1);
+}
+#seckontaktni-formular-submit { /*BUTTON*/
+    margin: 10px auto;
+    /* width: 20%; */
+    background-color: black;
+    border-radius: 150px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 0 4%;
+}
+select {
+    border-right: 16px solid transparent;
+    color: rgba(255, 255, 255, 1);
+}
+select option {
+    color: rgb(54, 54, 54);
+}
+
+#seckontaktni-formular-podrobnejsi-info {
+    height: 20vh;
+}
+textarea {
+    resize: none;
+}
+#seckontaktni-formular-infopod {
+    font-size: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+    #section-kontaktni-formular {
+        display: flex;
+        margin: 5% 2%;
+    }
+    #seckontaktni-formular-inputy input, select, textarea {
+        font-size: 12px;
+    }
+    #seckontaktni-formular-submit { /*BUTTON*/
+        margin: 10px auto;
+        font-size: 1rem;
+        padding: 0 5%;
+    }
+    #seckontaktni-formular-infopod {
+        font-size: 0.5rem;
+        margin-bottom: 8px;
+    }
+}

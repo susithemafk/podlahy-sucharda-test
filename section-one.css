@@ -1,0 +1,94 @@
+#sectionone {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+#secone-podlahy-sucharda {
+    color: white;
+    /* line-height: 80%; */
+    padding-top: 8%;
+    text-align: end;
+}
+#secone-odkazy {
+    align-self: flex-end;
+    padding-right: 30vw;
+}
+#secone-odkazy .button {
+    display: flex;
+    height: 50px;
+    width: 50px; 
+    float: left;
+    margin: 0 5px;
+    border-radius: 50px;
+    background: rgba(187, 138, 64, 0.3); 
+    cursor: pointer;
+    transition: all 0.3s;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;        
+}
+#secone-odkazy .button:nth-child(1):hover {width: 290px;}
+#secone-odkazy .button:nth-child(2):hover {width: 280px;}
+#secone-odkazy .button:nth-child(3):hover {width: 240px;}
+#secone-odkazy .button:nth-child(4):hover {width: 200px;}
+#secone-odkazy .button:hover > span{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: all 0.3s;
+}
+#secone-odkazy .button .icon {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+#secone-odkazy .button .icon img {
+    height: 70%;
+    width: 70%;	  
+}
+#secone-odkazy .button span {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    color: white;
+    height: 0;
+    width: 0;
+    opacity: 0;
+    margin-top: -8px;
+}
+#secone-textpodsockama {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 4vw;
+
+}
+
+@media only screen and (max-width: 500px) {
+    #sectionone {
+        height: 50vh;
+    }
+    #secone-podlahy-sucharda {
+        text-align: center;
+        margin-top: 30vh;
+        font-size: 13vw;
+    }
+    #secone-nazev-stranky {
+        display: none;
+    }
+    
+    #secone-odkazy {
+        display: none;
+    }
+    #secone-textpodsockama {
+        /* margin-top: 30vh; */
+        font-size: 5vw;
+    }
+}

@@ -1,0 +1,70 @@
+#section-jak-probiha-prace-s-nami {
+    margin: 5%;
+    border-radius: 50px;
+
+    padding: 2vw 0;
+}
+#secjakprobiha-jak-probiha {
+    padding: 0% 0% 0% 10%;
+}
+#secjakprobiha-cisla-a-texty {
+    margin-top: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 1.1;
+    padding: 0% 10% 0% 5%;
+}
+#secjakprobiha-cisla-a-texty div {
+    display: flex;
+    /* gap: 5%; */
+    align-items: center;
+}
+.secjakprobiha-cislo {
+    flex: 1;
+    line-height: 0;
+    text-align: center;
+    font-size: 2.25vw;
+    font-weight: 400;
+}
+.secjakprobiha-text {
+    flex: 10;
+}
+
+#secjakprobiha-buttony {
+    flex: 1;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 5%;
+}
+#secjakprobiha-buttony button {
+    margin-top: 30px;
+    font-size: 2vw;
+    font-weight: 500;
+    padding: 1% 5%;
+}
+#secjakprobiha-buttony button:nth-child(1) {
+    background-color: rgba(187, 182, 38, 0.5);
+}
+#secjakprobiha-buttony button:nth-child(2) {
+    background-color: rgba(137, 180, 11, 0.5);
+}
+
+@media only screen and (max-width: 500px) {
+    #section-jak-probiha-prace-s-nami {
+        border-radius: 20px;
+        padding: 3vw 0;
+
+    }
+    #secjakprobiha-cisla-a-texty {
+        margin-top: 5px;
+        gap: 10px;
+    }
+    #secjakprobiha-buttony button {
+        padding: 2% 5%;
+        margin-top: 10px;
+        font-size: 3vw;
+    }
+}
