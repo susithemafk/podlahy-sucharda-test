@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="93" height="61" viewBox="0 0 93 61">
+  <g id="env3" transform="translate(-908 -406)">
+    <g id="Group_10" data-name="Group 10" transform="translate(921.201 415.012)">
+      <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(-0.201 -0.012)" fill="none" stroke="#fff" stroke-width="3">
+        <rect width="68" height="44" rx="6" stroke="none"/>
+        <rect x="1.5" y="1.5" width="65" height="41" rx="4.5" fill="none"/>
+      </g>
+      <path id="Path_1" data-name="Path 1" d="M104.928,432.807,136.666,460.6l31.55-27.794" transform="translate(-102.93 -428.826)" fill="none" stroke="#fff" stroke-width="3"/>
+      <path id="Path_3" data-name="Path 3" d="M116.543,449.374l11.333,11.9" transform="translate(-71.138 -426.09)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+      <path id="Path_4" data-name="Path 4" d="M127.4,449.374l-10.859,11.4" transform="translate(-104.51 -426.09)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+    </g>
+    <g id="Rectangle_17" data-name="Rectangle 17" transform="translate(908 406)" fill="none" stroke="#fff" stroke-width="2">
+      <rect width="93" height="61" rx="3" stroke="none"/>
+      <rect x="1" y="1" width="91" height="59" rx="2" fill="none"/>
+    </g>
+  </g>
+</svg>

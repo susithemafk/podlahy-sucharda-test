@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" viewBox="0 0 66 66">
+  <g id="sdsa" transform="translate(-23.431 -23.718)">
+    <g id="Group_7" data-name="Group 7" transform="translate(27.947 27.947)" opacity="0.25">
+      <g id="Group_8" data-name="Group 8" transform="translate(0 0)">
+        <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(0.483 -0.229)" fill="none" stroke="#000" stroke-width="5">
+          <rect width="61" height="62" rx="14" stroke="none"/>
+          <rect x="2.5" y="2.5" width="56" height="57" rx="11.5" fill="none"/>
+        </g>
+      </g>
+      <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="3.5" cy="4" rx="3.5" ry="4" transform="translate(43.483 10.771)"/>
+      <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(15.483 14.771)" fill="none" stroke="#000" stroke-width="5">
+        <ellipse cx="15.5" cy="16" rx="15.5" ry="16" stroke="none"/>
+        <ellipse cx="15.5" cy="16" rx="13" ry="13.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Group_6" data-name="Group 6" transform="translate(23.713 23.713)">
+      <g id="Rectangle_2-2" data-name="Rectangle 2" transform="translate(-0.282 0.005)" fill="none" stroke="#fff" stroke-width="5">
+        <rect width="61" height="62" rx="14" stroke="none"/>
+        <rect x="2.5" y="2.5" width="56" height="57" rx="11.5" fill="none"/>
+      </g>
+      <ellipse id="Ellipse_2-2" data-name="Ellipse 2" cx="4" cy="4.5" rx="4" ry="4.5" transform="translate(42.718 10.005)" fill="#fff"/>
+      <g id="Ellipse_3-2" data-name="Ellipse 3" transform="translate(14.718 15.005)" fill="none" stroke="#fff" stroke-width="5">
+        <ellipse cx="15.5" cy="16" rx="15.5" ry="16" stroke="none"/>
+        <ellipse cx="15.5" cy="16" rx="13" ry="13.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
